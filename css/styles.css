@@ -360,7 +360,9 @@ img {
   flex-wrap: wrap;
   gap: 48px 24px;
 }
-
+.gallery__item {
+  width: calc((100% - 48px) / 3);
+}
 .gallery__wrapper {
   border: 1px solid var(--color-cornflower);
   border-top: none;
