@@ -100,6 +100,7 @@ img {
 
 .header-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -143,7 +144,6 @@ img {
 
 .header-contacts {
   font-style: normal;
-  margin-left: auto;
 }
 
 .header-contacts__list {
